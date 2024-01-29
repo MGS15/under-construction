@@ -5,7 +5,21 @@ export default {
 	'./index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+		animation: {
+			typewriter: "typewriter 2s steps(11) forwards"
+		},
+		fontFamily : {
+			'nova-square': ['Nova Square', 'sans-serif'],
+		},
+		keyframes: {
+			typewriter: {
+				to: {
+				left: "100%"
+				}
+			}
+		}	
+	},
   },
   plugins: [],
 }
