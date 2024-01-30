@@ -46,7 +46,7 @@ const SocialLink = ({text, url, textColor, SocialSVG}:{text: string, url: string
 
 const SocialLinks = () => {
 	return (
-		<div className="flex flex-col gap-y-2 sm:flex-row sm:gap-x-4">
+		<div className="flex flex-col gap-y-2 sm:flex-row sm:gap-x-4 font-bold">
 			<SocialLink text={socials["LinkedIn"]["name"]} url={socials["LinkedIn"]["link"]} textColor={socials["LinkedIn"]["color"]} SocialSVG={socials["LinkedIn"]["SVG"]} />
 			<SocialLink text={socials["GitHub"]["name"]} url={socials["GitHub"]["link"]} textColor={socials["GitHub"]["color"]} SocialSVG={socials["GitHub"]["SVG"]} />
 			<SocialLink text={socials["Instagram"]["name"]} url={socials["Instagram"]["link"]} textColor={socials["Instagram"]["color"]} SocialSVG={socials["Instagram"]["SVG"]} />
